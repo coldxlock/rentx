@@ -1,10 +1,18 @@
 import React from 'react';
-import { View } from 'react-native';
+import { BackButton } from '../../components/Car/BackButton';
 
-// import { Container } from './styles';
+import { Container, Header } from './styles';
 
 const CarDetails: React.FC = () => {
-  return <View />;
+  return (
+    <Container>
+      <Header>
+        <BackButton onPress={() => {}} 
+        />
+      </Header>
+
+    </Container>
+  )
 }
 
 export default CarDetails;
